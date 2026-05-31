@@ -34,6 +34,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
+          VITE_BASE: /Relay/
           VITE_SUBMISSION_ENDPOINT: https://script.google.com/macros/s/AKfycbwh3hKVcbUjpvj1oAzXZ8HZmlttbOwv5YZaWtQTAEALSzRVE-osmtio6zK_vNjHRPti/exec
 
       - name: Upload artifact
